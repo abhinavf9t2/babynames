@@ -1,0 +1,36 @@
+<form action="by_name.php" name='form' method='post'  >
+	<table align="center">
+		<tr>
+			<td align="left" class="home-table-td" >
+				Name:
+			</td>
+			<td align="left">
+				<input type='text' name='name' placeholder='Enter a full or partial name to search for' size="30" required />
+			</td>
+		</tr>
+		<tr>
+			<td align="left" class="home-table-td">
+				Start Year:
+			</td>
+			<td align="left">
+				<input type='text' name='year' placeholder='Enter the begining year' size="30" required />
+			</td>
+		</tr>
+		<tr>
+			<td align="left" class="home-table-td">
+				Gender:
+			</td>
+			<td align="left">
+				<select name="gender" >
+					<option value='male' >Male</option>
+					<option value='female' >Female</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<button class='home-submit'  >Submit</button>
+			</td>
+		</tr>
+	</table>
+</form>
